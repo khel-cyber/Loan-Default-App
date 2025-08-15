@@ -22,7 +22,6 @@ from sklearn.tree import DecisionTreeClassifier
 st.set_page_config(page_title="Loan Default Prediction (Naïve Bayes & Decision Tree)", layout="wide")
 
 # -------------------- Load dataset directly --------------------
-DATA_PATH = 'C:/Users/khelv/PycharmProjects/PythonProject1/train_u6lujuX_CVtuZ9i (1).csv'
 df_loaded = pd.read_csv('train_u6lujuX_CVtuZ9i.csv')
 
 # Keep only relevant columns (if present)
