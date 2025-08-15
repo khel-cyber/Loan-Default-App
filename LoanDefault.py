@@ -23,7 +23,7 @@ st.set_page_config(page_title="Loan Default Prediction (Naïve Bayes & Decision 
 
 # -------------------- Load dataset directly --------------------
 DATA_PATH = 'C:/Users/khelv/PycharmProjects/PythonProject1/train_u6lujuX_CVtuZ9i (1).csv'
-df_loaded = pd.read_csv('train_u6lujuX_CVtuZ9i (1)')
+df_loaded = pd.read_csv('train_u6lujuX_CVtuZ9i.csv')
 
 # Keep only relevant columns (if present)
 keep = ['Loan_ID','Gender','Married','Dependents','Education','Self_Employed',
